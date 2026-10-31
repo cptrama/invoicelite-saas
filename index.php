@@ -24,6 +24,38 @@ switch ($page) {
         }
         break;
 
+    case 'dashboard':
+        if (file_exists(__DIR__ . '/views/dashboard/index.php')) {
+            require __DIR__ . '/views/dashboard/index.php';
+        } else {
+            require __DIR__ . '/views/landing/index.php';
+        }
+        break;
+
+    case 'invoices':
+        if (file_exists(__DIR__ . '/views/invoices/index.php')) {
+            require __DIR__ . '/views/invoices/index.php';
+        } else {
+            require __DIR__ . '/views/landing/index.php';
+        }
+        break;
+
+    case 'invoice-create':
+        if (file_exists(__DIR__ . '/views/invoices/create.php')) {
+            require __DIR__ . '/views/invoices/create.php';
+        } else {
+            require __DIR__ . '/views/landing/index.php';
+        }
+        break;
+
+    case 'invoice-preview':
+        if (file_exists(__DIR__ . '/views/invoices/preview.php')) {
+            require __DIR__ . '/views/invoices/preview.php';
+        } else {
+            require __DIR__ . '/views/landing/index.php';
+        }
+        break;
+
     case 'clients':
         if (file_exists(__DIR__ . '/views/clients/index.php')) {
             require __DIR__ . '/views/clients/index.php';

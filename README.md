@@ -9,9 +9,9 @@ InvoiceLite adalah aplikasi web SaaS sederhana untuk membantu freelancer dan UMK
 
 | No | Nama Anggota | GitHub Username | Peran | Tanggung Jawab Utama |
 |---|---|---|---|---|
-| 1 | `[Nama Anggota 1]` | `@username1` | **Frontend UI/UX Lead** | Landing page, Auth forms, Dashboard Layout & Theme, Client CRUD UI. |
-| 2 | `[Nama Anggota 2]` | `@username2` | **Backend & Database Lead** | Database Architecture, Auth session/logic, REST Controllers CRUD Klien & Invoice. |
-| 3 | `[Nama Anggota 3]` | `@username3` | **Feature & Analytics Lead** | Dynamic Invoice Builder (JS), Export/Print PDF, Dashboard Chart & Laporan. |
+| 1 | **Suraya Akbar** | `@akbarzha89` | **Frontend UI/UX Lead** | Landing page, Auth forms, Dashboard Layout & Theme, Client CRUD UI. |
+| 2 | **Muhammad Rama Alfiannur** | `@cptrama` | **Backend & Database Lead** | Database Architecture, Auth session/logic, REST Controllers CRUD Klien & Invoice. |
+| 3 | **Fikri Nabillah** | `@fikrinabillah349-art` | **Feature & Analytics Lead** | Dynamic Invoice Builder (JS), Export/Print PDF, Dashboard Chart & Laporan. |
 
 ---
 
