@@ -67,8 +67,8 @@
                         </svg>
                     </span>
                 </button>
-                <a href="views/auth/login.php" class="btn btn-outline btn-sm">Masuk</a>
-                <a href="views/auth/register.php" class="btn btn-primary btn-sm">Coba Gratis</a>
+                <a href="index.php?page=dashboard" class="btn btn-outline btn-sm">Dashboard</a>
+                <a href="index.php?page=invoice-create" class="btn btn-primary btn-sm">Buat Invoice</a>
                 <button class="mobile-toggle" aria-label="Menu Mobile">
                     ☰
                 </button>
@@ -96,7 +96,7 @@
                 </p>
 
                 <div class="hero-actions">
-                    <a href="views/auth/register.php" class="btn btn-emerald btn-lg">
+                    <a href="index.php?page=invoice-create" class="btn btn-emerald btn-lg">
                         Mulai Gratis Sekarang
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -616,8 +616,8 @@
                 <h2 class="cta-title">Siap Tingkatkan Profesionalisme Penagihan Anda?</h2>
                 <p class="cta-subtitle">Daftar sekarang dan nikmati kemudahan membuat invoice instan tanpa ribet.</p>
                 <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-                    <a href="views/auth/register.php" class="btn btn-emerald btn-lg">Daftar Akun Gratis</a>
-                    <a href="views/auth/login.php" class="btn btn-secondary btn-lg">Masuk ke Dashboard</a>
+                    <a href="index.php?page=invoice-create" class="btn btn-emerald btn-lg">Daftar Akun Gratis</a>
+                    <a href="index.php?page=dashboard" class="btn btn-secondary btn-lg">Masuk ke Dashboard</a>
                 </div>
             </div>
         </div>
