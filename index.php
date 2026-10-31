@@ -56,6 +56,14 @@ switch ($page) {
         }
         break;
 
+    case 'logout':
+        if (file_exists(__DIR__ . '/views/auth/logout.php')) {
+            require __DIR__ . '/views/auth/logout.php';
+        } else {
+            require __DIR__ . '/views/landing/index.php';
+        }
+        break;
+
     case 'clients':
         if (file_exists(__DIR__ . '/views/clients/index.php')) {
             require __DIR__ . '/views/clients/index.php';
